@@ -68,3 +68,17 @@ function meet(msg:string,value:number){
 
 console.log(meet("sanam",25));
 
+// default parameter
+function neet(msg:string="rohan"){
+    console.log(msg);
+}
+
+neet();
+
+// optional parameter
+
+function optional1(msg?:string){
+    console.log(msg||"hello boss");
+}
+
+optional1();
