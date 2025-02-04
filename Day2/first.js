@@ -23,3 +23,8 @@ function meet(msg, value) {
     console.log(msg, value);
 }
 console.log(meet("sanam", 25));
+// default parameter
+function neet(msg = "rohan") {
+    console.log(msg);
+}
+neet();
