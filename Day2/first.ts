@@ -34,3 +34,21 @@ let obj4:Partial <customer1> = {
 // partial :all properties become optional
 // required :all properties become required
 // Readonly :all properties become readonly not editable.
+
+
+// array of objects
+
+
+// we can define like this.
+// let arr:{age:number,name:string}[] = [{age:20,name:"sanam"},{age:30,name:"rohit"}]
+
+interface people {
+    age:number,
+    name:string
+}
+
+let arr:people = {
+    age:25,
+    name:"sam karan"
+}
+
