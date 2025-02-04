@@ -28,3 +28,8 @@ function neet(msg = "rohan") {
     console.log(msg);
 }
 neet();
+// optional parameter
+function optional1(msg) {
+    console.log(msg || "hello boss");
+}
+optional1();
