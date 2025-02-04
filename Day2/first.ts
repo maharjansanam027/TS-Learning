@@ -52,3 +52,19 @@ let arr:people = {
     name:"sam karan"
 }
 
+// function in js
+
+// if we give simly aargumment then it will take any
+function greet(a:number):number{
+    console.log(a);
+    return a+5;
+}
+
+console.log(greet(10));
+
+function meet(msg:string,value:number){
+    console.log(msg,value);
+}
+
+console.log(meet("sanam",25));
+
