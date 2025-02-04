@@ -50,3 +50,9 @@ let c1 = {
     name: "sanam",
     age: 25
 };
+let obj3 = {
+    names: "sujan",
+    age: 23,
+    position: "senior developer",
+    id: 1
+};

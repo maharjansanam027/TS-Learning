@@ -88,7 +88,20 @@ let c1:customer = {
 }
 
 // we can use this method also
+// because it will merge if we created another interface same name
+interface admin{
+    names:string,
+    age:number,
+    position:string
+}
 
 interface admin{
-    
+    id:number
+}
+
+let obj3:admin = {
+    names:"sujan",
+    age:23,
+    position:"senior developer",
+    id:1
 }
