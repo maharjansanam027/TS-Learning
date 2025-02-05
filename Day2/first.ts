@@ -94,3 +94,23 @@ function array4(...arr:number[]):number{
 }
 
 console.log(array4(2,5,9,8,8,10,52,66));
+
+// extend
+
+interface human{
+    name:string,
+    age:number,
+    gender:string
+}
+
+interface Teacher extends human{
+    salary:number
+}
+
+const obj5:Teacher = {
+    name:"sanam",
+    age:25,
+    gender:"male",
+    salary:25000
+}
+

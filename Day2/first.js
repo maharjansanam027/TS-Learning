@@ -42,3 +42,9 @@ function array4(...arr) {
     return ans;
 }
 console.log(array4(2, 5, 9, 8, 8, 10, 52, 66));
+const obj5 = {
+    name: "sanam",
+    age: 25,
+    gender: "male",
+    salary: 25000
+};
