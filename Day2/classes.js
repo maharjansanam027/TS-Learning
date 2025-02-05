@@ -22,3 +22,17 @@ console.log(p2);
 p1.greet2();
 console.log(p3);
 // console.log(p1.greet1())
+// Generic Template
+// function value(val:(number | string | number[])):(number | string | number[]){
+//     return val;
+// }
+function value(a) {
+    return a;
+}
+console.log(value("sanam"));
+console.log(value([2, 6, 5, 8, 4, 2, 6]));
+const obj6 = {
+    name: "sanam",
+    age: 25,
+    aadharNo: 25
+};

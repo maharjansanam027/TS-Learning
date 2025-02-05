@@ -51,3 +51,16 @@ function value<T>(a:T):T{
 
 console.log(value("sanam"));
 console.log(value([2,6,5,8,4,2,6]));
+
+
+interface Admin<T>{
+    name:string,
+    age:number,
+    aadharNo:T
+}
+
+const obj6:Admin<number> = {
+    name:"sanam",
+    age:25,
+    aadharNo:25
+} 
