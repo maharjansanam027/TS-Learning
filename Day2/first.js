@@ -33,3 +33,12 @@ function optional1(msg) {
     console.log(msg || "hello boss");
 }
 optional1();
+// rest operator using by ...arr
+function array4(...arr) {
+    let ans = 0;
+    arr.forEach((val) => {
+        ans = ans + val;
+    });
+    return ans;
+}
+console.log(array4(2, 5, 9, 8, 8, 10, 52, 66));
